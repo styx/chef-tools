@@ -24,3 +24,6 @@ end
 package 'mc'
 package 'htop'
 package 'git'
+package 'libxml2-dev'
+package 'libxslt-dev'
+package 'libcurl4-openssl-dev'
