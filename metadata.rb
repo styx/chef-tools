@@ -1,0 +1,6 @@
+maintainer       "Mikhail Pobolovets"
+maintainer_email "styx.mp@gmail.com"
+license          "Apache 2.0"
+description      "Installs a bunch of alldays programs"
+version          "0.1"
+supports         "ubuntu"
