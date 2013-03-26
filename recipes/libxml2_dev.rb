@@ -1,6 +1,6 @@
 #
 # Cookbook Name: chef-tools
-# Recipe: default
+# Recipe: libxml2dev
 #
 # Copyright 2013, Mikhail Pobolovets
 #
@@ -17,19 +17,4 @@
 # limitations under the License.
 #
 
-case node[:platform]
-when "debian", "ubuntu"
-  include_recipe 'chef-tools::curl'
-  include_recipe 'chef-tools::build_essential'
-  include_recipe 'chef-tools::mc'
-  include_recipe 'chef-tools::htop'
-  include_recipe 'chef-tools::most'
-  include_recipe 'chef-tools::git'
-  include_recipe 'chef-tools::libxml2_dev'
-  include_recipe 'chef-tools::libxslt_dev'
-  include_recipe 'chef-tools::python_software_properties'
-end
-
-if node[:platform] == "ubuntu"
-  include_recipe 'chef-tools::update_manager'
-end
+package 'libxml2-dev'
