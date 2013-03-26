@@ -31,5 +31,5 @@ when "debian", "ubuntu"
 end
 
 if node[:platform] == "ubuntu"
-  include_recipe 'chef-tools::update_manager'
+  include_recipe 'chef-tools::update_manager_core'
 end
