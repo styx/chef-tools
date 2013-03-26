@@ -1,6 +1,6 @@
 #
-# Cookbook Name:: chef-tools
-# Recipe:: libxml2dev
+# Cookbook Name: chef-tools
+# Recipe: libxml2dev
 #
 # Copyright 2013, Mikhail Pobolovets
 #

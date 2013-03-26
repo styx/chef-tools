@@ -1,6 +1,6 @@
 #
 # Cookbook Name: chef-tools
-# Recipe: default
+# Recipe: mc
 #
 # Copyright 2013, Mikhail Pobolovets
 #
@@ -17,20 +17,4 @@
 # limitations under the License.
 #
 
-case node[:platform]
-when "debian", "ubuntu"
-  include_recipe 'chef-tools::curl'
-  include_recipe 'chef-tools::build-essential'
-  include_recipe 'chef-tools::mc'
-  include_recipe 'chef-tools::htop'
-  include_recipe 'chef-tools::most'
-  include_recipe 'chef-tools::git'
-  include_recipe 'chef-tools::libxml2-dev'
-  include_recipe 'chef-tools::libxslt-dev'
-  include_recipe 'chef-tools::libcurl4-openssl-dev'
-  include_recipe 'chef-tools::python_software_properties'
-end
-
-if node[:platform] == "ubuntu"
-  include_recipe 'chef-tools::update_manager'
-end
+package 'update-manager-core'

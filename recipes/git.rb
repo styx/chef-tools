@@ -1,6 +1,6 @@
 #
-# Cookbook Name:: chef-tools
-# Recipe:: git
+# Cookbook Name: chef-tools
+# Recipe: git
 #
 # Copyright 2013, Mikhail Pobolovets
 #

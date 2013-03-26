@@ -1,6 +1,6 @@
 #
-# Cookbook Name:: chef-tools
-# Recipe:: mc
+# Cookbook Name: chef-tools
+# Recipe: mc
 #
 # Copyright 2013, Mikhail Pobolovets
 #
