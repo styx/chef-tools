@@ -27,6 +27,7 @@
   "groupings": {
   },
   "recipes": {
+    "chef-tools": "Installs a bunch of usefull packages."
   },
   "version": "0.1.0"
 }

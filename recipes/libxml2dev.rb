@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: chef-tools
-# Recipe:: default
+# Recipe:: libxml2dev
 #
 # Copyright 2013, Mikhail Pobolovets
 #
@@ -17,11 +17,4 @@
 # limitations under the License.
 #
 
-include_recipe 'curl'
-include_recipe 'build-essential'
-include_recipe 'mc'
-include_recipe 'htop'
-include_recipe 'git'
-include_recipe 'libxml2-dev'
-include_recipe 'libxslt-dev'
-include_recipe 'libcurl4-openssl-dev'
+package 'libxml2-dev'
