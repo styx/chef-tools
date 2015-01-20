@@ -1,3 +1,4 @@
+name             "tools"
 maintainer       "Mikhail Pobolovets"
 maintainer_email "styx.mp@gmail.com"
 license          "Apache 2.0"
